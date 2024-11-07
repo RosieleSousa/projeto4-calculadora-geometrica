@@ -15,34 +15,34 @@ do {
         switch(option){
             case '1':
             function triangleArea(base, altura){
-                return 3 * 6 / 2
+                return base * altura / 2
             }
-            console.log(triangleArea)
+            console.log(triangleArea(5, 2))
             break
             case '2' :
                  
             function rectangleArea(base, altura){
-                return 12 * 5
+                return base * altura
             }
-            console.log(rectangleArea)
+            console.log(rectangleArea(5, 3))
             break
             case '3' : 
             function squareArea(base){
-                return 5 * 5
+                return base * base
             }
-            console.log(squareArea)
+            console.log(squareArea(5, 5))
             break
             case '4' :
                 function areaTrapeze(baseMaior, baseMenor, altura){
-                    return (10 + 10) * 2 / 2
+                    return (baseMaior + baseMenor) * altura / 2
                 }
-                console.log(areaTrapeze)
+                console.log(areaTrapeze(10, 10, 2))
                 break
                 case '5' : 
                 function circleArea(raio){
-                    return (3 * 3 ) * 3,14  
+                    return (raio * raio ) * 3,14  
                 }
-                console.log(circleArea)
+                console.log(circleArea(3, 3))
                 break
                 default :
                     console.log('saindo do programa...')
