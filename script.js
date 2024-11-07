@@ -1,5 +1,4 @@
 
-let  option = ''
 
 do {
     option = prompt(`
