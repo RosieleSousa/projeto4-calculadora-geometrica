@@ -14,39 +14,31 @@ do {
        let continue = true
         switch(option){
             case '1':
-                let base1 = prompt('digite o valor da base:')
-                let altura1 = prompt('digite o valor da altura:')
-            function triangleArea(base1, altura1){
-                return base1 * altura1 / 2
+            function triangleArea(base, altura){
+                return base * altura / 2
             }
             console.log(triangleArea())
             break
             case '2' :
-                let base2 = prompt('digite o valor da base:')
-                let altura2 = prompt('digite o valor da altura:') 
-            function rectangleArea(base2, altura2){
-                return base2 * altura2
+                 
+            function rectangleArea(base, altura){
+                return base * altura
             }
             console.log(rectangleArea)
             break
-            case '3' :
-               let base3 = prompt('digite o valor da base:') 
-            function squareArea(base3){
-                return base3 * base3
+            case '3' : 
+            function squareArea(base){
+                return base * base
             }
             console.log(squareArea)
             break
             case '4' :
-               let baseMaior = prompt('digitye o valor da base maior:')
-               let baseMenor = prompt('digite o valor da base menor:')
-                let altura3 = prompt('digite o valor da altura:')
-                function areaTrapeze(baseMaior, baseMenor, altura3){
-                    return (baseMaior + baseMenor) * altura3 / 2
+                function areaTrapeze(baseMaior, baseMenor, altura){
+                    return (baseMaior + baseMenor) * altura / 2
                 }
                 console.log(areaTrapeze)
                 break
                 case '5' : 
-                let raio = prompt('digite o valor do raio:')
                 function circleArea(raio){
                     return (raio * raio) * 3,14  
                 }
