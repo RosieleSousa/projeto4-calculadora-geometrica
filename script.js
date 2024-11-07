@@ -1,6 +1,6 @@
 let base = ''
 let altura = ''
-baseMaior = ''
+ let baseMaior = ''
 let baseMenor = ''
 let raio = ''
 let  option = ''
