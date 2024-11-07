@@ -1,8 +1,4 @@
-let base = ''
-let altura = ''
- let baseMaior = ''
-let baseMenor = ''
-let raio = ''
+
 let  option = ''
 
 do {
