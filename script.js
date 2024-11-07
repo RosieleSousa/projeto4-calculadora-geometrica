@@ -11,36 +11,36 @@ do {
        4 - area do trapezio;
        5 - area do circulo;
        6 -  sair;`)
-       let continue = true
+       
         switch(option){
             case '1':
             function triangleArea(base, altura){
-                return base * altura / 2
+                return 3 * 6 / 2
             }
             console.log(triangleArea())
             break
             case '2' :
                  
             function rectangleArea(base, altura){
-                return base * altura
+                return 12 * 5
             }
             console.log(rectangleArea)
             break
             case '3' : 
             function squareArea(base){
-                return base * base
+                return 5 * 5
             }
             console.log(squareArea)
             break
             case '4' :
                 function areaTrapeze(baseMaior, baseMenor, altura){
-                    return (baseMaior + baseMenor) * altura / 2
+                    return (10 + 10) * 2 / 2
                 }
                 console.log(areaTrapeze)
                 break
                 case '5' : 
                 function circleArea(raio){
-                    return (raio * raio) * 3,14  
+                    return (3 * 3 ) * 3,14  
                 }
                 console.log(circleArea)
                 break
@@ -48,4 +48,4 @@ do {
                     console.log('saindo do programa...')
                 
         }
-    } while (continue)
+    } while (option !== '6')
