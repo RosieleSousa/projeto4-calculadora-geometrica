@@ -17,7 +17,7 @@ do {
             function triangleArea(base, altura){
                 return 3 * 6 / 2
             }
-            console.log(triangleArea())
+            console.log(triangleArea)
             break
             case '2' :
                  
