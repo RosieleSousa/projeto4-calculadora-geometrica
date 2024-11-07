@@ -1,4 +1,4 @@
-
+let result = ''
 
 do {
     option = prompt(`
