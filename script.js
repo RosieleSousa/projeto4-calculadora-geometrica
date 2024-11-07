@@ -11,8 +11,7 @@ do {
        4 - area do trapezio;
        5 - area do circulo;
        6 -  sair;`)
-       
-
+       let continue = true
         switch(option){
             case '1':
                 let base1 = prompt('digite o valor da base:')
@@ -57,4 +56,4 @@ do {
                     console.log('saindo do programa...')
                 
         }
-    } while (option !== '6')
+    } while (continue)
